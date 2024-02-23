@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a href="../home.html" class="navbar-brand">Sawdi Beauty</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="../shop.html" class="nav-link">Shop</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="../account.html" class="nav-link">Account</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login form -->
+    <div class="container">
+        <h2>Login</h2>
+        <form action="../login.php" method="post">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+    </div>
+
+    <!-- Create account link -->
+    <div class="container mt-4">
+        <p>Don't have an account? <a href="../Project1/createAccount.html">Create one</a>.</p>
+    </div>
+
+<script src="../Project1/javascript/bootstrap.min.js"></script>
+<script src="../Project1/javascript/jquery-3.5.1.slim.min.js"></script>
+<script src="../Project1/javascript/popper.min.js"></script>
+</body>
+</html>
